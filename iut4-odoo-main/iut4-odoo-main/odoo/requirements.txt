@@ -1,0 +1,13 @@
+# Metis
+git+https://gitlab.com/kal-it/metis.git
+
+
+# FS Storage
+python_slugify
+fsspec>=2024.5.0
+fsspec[s3]>=2024.5.0
+
+# Platform
+redis==2.10.5
+inotify
+newrelic==10.5.0
